@@ -1,7 +1,7 @@
 ![image](https://media.discordapp.net/attachments/864201025047887932/1041693973590331542/1111.png) 
 
 ## Description
-🌙 This is the source code of my personal site. You can pull it to yourself by forking.
+🌙 This is the source code of my Top.gg Vote System. You can pull it to yourself by forking.
 
 ## Languages Used in the Page/Site;
 `JavaScript`

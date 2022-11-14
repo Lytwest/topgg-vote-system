@@ -1,0 +1,7 @@
+{
+    "topgg-auth": "To access this token, copy and paste the token in the token section from your bot page on Top.gg.",
+    "secret": "Enter your bot's real token in the Discord Developer Portal",
+    "deletethisline": "If glitch etc. If you are using platforms, add them to the .env file."
+    }
+    
+

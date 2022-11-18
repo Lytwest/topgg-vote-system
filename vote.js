@@ -2,7 +2,7 @@ const Discord = require("discord.js");
 const { MessageEmbed } = require("discord.js");
 const INTENTS = Object.entries(Discord.Intents.FLAGS).filter(([K]) => ![].includes(K)).reduce((t, [, V]) => t | V, 0) 
 const client = new Discord.Client({intents: INTENTS  })  // Intents
-const db = require("croxydb"); 
+const db = require("croxydb"); // DataBase
 const {MessageActionRow, MessageButton } = require("discord.js");
 client.commands = new Discord.Collection();
 const express = require('express')
@@ -17,7 +17,7 @@ client.on("ready", () => {
 
 
 const axios = require("axios")  
- const Topgg = require('@top-gg/sdk') 
+ const Topgg = require('@top-gg/sdk') // Connections
 
  const webhook = new Topgg.Webhook('')  // Enter the password you specified on Top.gg here.
  app.post('/dblwebhook', webhook.listener(async (vote) => { 
